@@ -11,10 +11,16 @@ function TeamCard(props) {
     return (
         <div className="w-full md:w-6/12 lg:w-4/12 lg:mb-0 mb-12 px-4">
             <div className="px-6">
-                <img alt="..." src={src} className="shadow-lg rounded-full mx-auto max-w-120-px" />
+                <img
+                    alt="..."
+                    src={src}
+                    className="shadow-lg rounded-full mx-auto max-w-120-px"
+                />
                 <div className="pt-6 text-center">
                     <h5 className="text-xl font-bold">{props.name}</h5>
-                    <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">{props.desg}</p>
+                    <p className="mt-1 text-sm text-blueGray-400 uppercase font-semibold">
+                        {props.desg}
+                    </p>
                 </div>
             </div>
         </div>
@@ -30,16 +36,24 @@ export default function Landing() {
                     <div
                         className="absolute top-0 w-full h-full bg-center bg-cover"
                         style={{
-                            backgroundImage: "url('https://cdn.shopify.com/s/files/1/2006/5615/articles/TechniMobili-Blog-5RulesForBuying.jpg?v=1510251949')",
+                            backgroundImage:
+                                "url('https://cdn.shopify.com/s/files/1/2006/5615/articles/TechniMobili-Blog-5RulesForBuying.jpg?v=1510251949')",
                         }}>
-                        <span id="blackOverlay" className="w-full h-full absolute opacity-75 bg-black"></span>
+                        <span
+                            id="blackOverlay"
+                            className="w-full h-full absolute opacity-75 bg-black"></span>
                     </div>
                     <div className="container relative mx-auto">
                         <div className="items-center flex flex-wrap">
                             <div className="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
                                 <div className="pr-12">
-                                    <p className="text-white font-semibold text-4xl">Let us help you choose your next right product.</p>
-                                    <h1 className="text-white font-bold text-5xl text-center p-5">Virtually</h1>
+                                    <p className="text-white font-semibold text-4xl">
+                                        Let us help you choose your next right
+                                        product.
+                                    </p>
+                                    <h1 className="text-white font-bold text-5xl text-center p-5">
+                                        Virtually
+                                    </h1>
                                     {/* <p className="mt-4 text-lg text-blueGray-200">
                                         This is a simple example of a Landing Page you can build using Notus React. It features multiple CSS components based on
                                         the Tailwind CSS design system.
@@ -59,7 +73,9 @@ export default function Landing() {
                             viewBox="0 0 2560 100"
                             x="0"
                             y="0">
-                            <polygon className="text-blueGray-200 fill-current" points="2560 0 2560 100 0 100"></polygon>
+                            <polygon
+                                className="text-blueGray-200 fill-current"
+                                points="2560 0 2560 100 0 100"></polygon>
                         </svg>
                     </div>
                 </div>
@@ -72,8 +88,13 @@ export default function Landing() {
                                         <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-red-400">
                                             <i className="fas fa-award"></i>
                                         </div>
-                                        <h6 className="text-xl font-semibold">Free</h6>
-                                        <p className="mt-2 mb-4 text-blueGray-500">Get guidance through free chats with the experts.</p>
+                                        <h6 className="text-xl font-semibold">
+                                            Free Chats
+                                        </h6>
+                                        <p className="mt-2 mb-4 text-blueGray-500">
+                                            Get guidance through free chats with
+                                            our experts.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -84,8 +105,13 @@ export default function Landing() {
                                         <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-lightBlue-400">
                                             <i className="fas fa-retweet"></i>
                                         </div>
-                                        <h6 className="text-xl font-semibold">Video Calls</h6>
-                                        <p className="mt-2 mb-4 text-blueGray-500">Get more personalised help through video call sessions.</p>
+                                        <h6 className="text-xl font-semibold">
+                                            Video Calls
+                                        </h6>
+                                        <p className="mt-2 mb-4 text-blueGray-500">
+                                            Get more personalised help through
+                                            video call sessions.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -96,8 +122,13 @@ export default function Landing() {
                                         <div className="text-white p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-emerald-400">
                                             <i className="fas fa-fingerprint"></i>
                                         </div>
-                                        <h6 className="text-xl font-semibold">Popular Brands</h6>
-                                        <p className="mt-2 mb-4 text-blueGray-500">Know the products from popular brands.</p>
+                                        <h6 className="text-xl font-semibold">
+                                            Popular Brands
+                                        </h6>
+                                        <p className="mt-2 mb-4 text-blueGray-500">
+                                            Know the products from popular
+                                            brands.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -108,17 +139,26 @@ export default function Landing() {
                                 <div className="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-white">
                                     <i className="fas fa-user-friends text-xl"></i>
                                 </div>
-                                <h3 className="text-3xl mb-2 font-semibold leading-normal">Working with us is a pleasure</h3>
+                                <h3 className="text-3xl mb-2 font-semibold leading-normal">
+                                    Connect with the experts
+                                </h3>
                                 <p className="text-lg font-light leading-relaxed mt-4 mb-4 text-blueGray-600">
-                                    Don't let your uses guess by attaching tooltips and popoves to any element. Just make sure you enable them first via
-                                    JavaScript.
+                                    When it comes to buying a new product, there
+                                    are a lot of questions that needs to be
+                                    answered. It takes hours of research and
+                                    hundreds of web searches to get a clear idea
+                                    about what's there in the market now.
                                 </p>
                                 <p className="text-lg font-light leading-relaxed mt-0 mb-4 text-blueGray-600">
-                                    The kit comes with three pre-built pages to help you get started faster. You can change the text and images and you're good
-                                    to go. Just make sure you enable them first via JavaScript.
+                                    We are trying to solve this problem by
+                                    directly connecting you to people who had
+                                    already done hours and hours of research and
+                                    thousands of web searches.
                                 </p>
-                                <Link to="/" className="font-bold text-blueGray-700 mt-8">
-                                    Check Notus React!
+                                <Link
+                                    to="/"
+                                    className="font-bold text-blueGray-700 mt-8">
+                                    Get yourself registered today!
                                 </Link>
                             </div>
 
@@ -126,7 +166,7 @@ export default function Landing() {
                                 <div className="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-lightBlue-500">
                                     <img
                                         alt="..."
-                                        src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1051&q=80"
+                                        src="https://onlineshopperng.files.wordpress.com/2014/11/confused-computer.jpg?w=450"
                                         className="w-full align-middle rounded-t-lg"
                                     />
                                     <blockquote className="relative p-8 mb-4">
@@ -135,12 +175,21 @@ export default function Landing() {
                                             xmlns="http://www.w3.org/2000/svg"
                                             viewBox="0 0 583 95"
                                             className="absolute left-0 w-full block h-95-px -top-94-px">
-                                            <polygon points="-30,95 583,95 583,65" className="text-lightBlue-500 fill-current"></polygon>
+                                            <polygon
+                                                points="-30,95 583,95 583,65"
+                                                className="text-lightBlue-500 fill-current"></polygon>
                                         </svg>
-                                        <h4 className="text-xl font-bold text-white">Top Notch Services</h4>
+                                        <h4 className="text-xl font-bold text-white">
+                                            What to buy?
+                                        </h4>
                                         <p className="text-md font-light mt-2 text-white">
-                                            The Arctic Ocean freezes every winter and much of the sea-ice then thaws every summer, and that process will
-                                            continue whatever happens.
+                                            <ul>
+                                                <li>
+                                                    Market is rapidly evolving
+                                                </li>
+                                                <li>Too Many Options</li>
+                                                <li>Lack of Knowledge</li>
+                                            </ul>
                                         </p>
                                     </blockquote>
                                 </div>
@@ -148,7 +197,7 @@ export default function Landing() {
                         </div>
                     </div>{" "}
                 </section>
-                <section className="relative py-20">
+                {/* <section className="relative py-20">
                     <div
                         className="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20 h-20"
                         style={{ transform: "translateZ(0)" }}>
@@ -160,7 +209,9 @@ export default function Landing() {
                             viewBox="0 0 2560 100"
                             x="0"
                             y="0">
-                            <polygon className="text-white fill-current" points="2560 0 2560 100 0 100"></polygon>
+                            <polygon
+                                className="text-white fill-current"
+                                points="2560 0 2560 100 0 100"></polygon>
                         </svg>
                     </div>
                     <div className="container mx-auto px-4">
@@ -177,9 +228,13 @@ export default function Landing() {
                                     <div className="text-lightBlue-600 p-3 text-center inline-flex items-center justify-center w-16 h-16 mb-6 shadow-lg rounded-full bg-lightBlue-300">
                                         <i className="fas fa-rocket text-xl"></i>
                                     </div>
-                                    <h3 className="text-3xl font-semibold">A growing company</h3>
+                                    <h3 className="text-3xl font-semibold">
+                                        A growing company
+                                    </h3>
                                     <p className="mt-4 text-lg leading-relaxed text-blueGray-500">
-                                        The extension comes with three pre-built pages to help you get started faster. You can change the text and images and
+                                        The extension comes with three pre-built
+                                        pages to help you get started faster.
+                                        You can change the text and images and
                                         you're good to go.
                                     </p>
                                     <ul className="list-none mt-6">
@@ -191,7 +246,10 @@ export default function Landing() {
                                                     </span>
                                                 </div>
                                                 <div>
-                                                    <h4 className="text-blueGray-500">Carefully crafted components</h4>
+                                                    <h4 className="text-blueGray-500">
+                                                        Carefully crafted
+                                                        components
+                                                    </h4>
                                                 </div>
                                             </div>
                                         </li>
@@ -203,7 +261,9 @@ export default function Landing() {
                                                     </span>
                                                 </div>
                                                 <div>
-                                                    <h4 className="text-blueGray-500">Amazing page examples</h4>
+                                                    <h4 className="text-blueGray-500">
+                                                        Amazing page examples
+                                                    </h4>
                                                 </div>
                                             </div>
                                         </li>
@@ -215,7 +275,9 @@ export default function Landing() {
                                                     </span>
                                                 </div>
                                                 <div>
-                                                    <h4 className="text-blueGray-500">Dynamic components</h4>
+                                                    <h4 className="text-blueGray-500">
+                                                        Dynamic components
+                                                    </h4>
                                                 </div>
                                             </div>
                                         </li>
@@ -224,20 +286,37 @@ export default function Landing() {
                             </div>
                         </div>{" "}
                     </div>{" "}
-                </section>
+                </section> */}
                 <section className="pt-20 pb-48">
                     <div className="container mx-auto px-4">
                         <div className="flex flex-wrap justify-center text-center mb-24">
                             <div className="w-full lg:w-6/12 px-4">
-                                <h2 className="text-4xl font-semibold">Our Team</h2>
+                                <h2 className="text-4xl font-semibold">
+                                    Our Team
+                                </h2>
                             </div>
                         </div>
                         <div className="flex flex-wrap justify-center">
-                            <TeamCard name="Archana Vijayakumar" desg="CEO" src="Archana.jpeg"></TeamCard>
-                            <TeamCard name="Amal Thoma" desg="COO" src="Amal.jpeg"></TeamCard>
-                            <TeamCard name="Riya P Mathew" desg="CTO" src="Riya.png"></TeamCard>
-                            <TeamCard name="Rahul Sunil" desg="CFO" src="Rahul.jpg"></TeamCard>
-                            <TeamCard name="Bharath T U" desg="CMO" src="Bharath.JPG"></TeamCard>
+                            <TeamCard
+                                name="Archana Vijayakumar"
+                                desg="CEO"
+                                src="Archana.jpeg"></TeamCard>
+                            <TeamCard
+                                name="Amal Thoma"
+                                desg="COO"
+                                src="Amal.jpeg"></TeamCard>
+                            <TeamCard
+                                name="Riya P Mathew"
+                                desg="CTO"
+                                src="Riya.png"></TeamCard>
+                            <TeamCard
+                                name="Rahul Sunil"
+                                desg="CFO"
+                                src="Rahul.jpg"></TeamCard>
+                            <TeamCard
+                                name="Bharath T U"
+                                desg="CMO"
+                                src="Bharath.JPG"></TeamCard>
                         </div>
                     </div>{" "}
                 </section>
@@ -253,15 +332,21 @@ export default function Landing() {
                             viewBox="0 0 2560 100"
                             x="0"
                             y="0">
-                            <polygon className="text-blueGray-800 fill-current" points="2560 0 2560 100 0 100"></polygon>
+                            <polygon
+                                className="text-blueGray-800 fill-current"
+                                points="2560 0 2560 100 0 100"></polygon>
                         </svg>
                     </div>
                     <div className="container mx-auto px-4 lg:pt-24 lg:pb-64">
-                        <div className="flex flex-wrap text-center justify-center">
+                        {/* <div className="flex flex-wrap text-center justify-center">
                             <div className="w-full lg:w-6/12 px-4">
-                                <h2 className="text-4xl font-semibold text-white">Build something</h2>
+                                <h2 className="text-4xl font-semibold text-white">
+                                    Build something
+                                </h2>
                                 <p className="text-lg leading-relaxed mt-4 mb-4 text-blueGray-400">
-                                    Put the potentially record low maximum sea ice extent tihs year down to low ice. According to the National Oceanic and
+                                    Put the potentially record low maximum sea
+                                    ice extent tihs year down to low ice.
+                                    According to the National Oceanic and
                                     Atmospheric Administration, Ted, Scambos.
                                 </p>
                             </div>
@@ -271,30 +356,42 @@ export default function Landing() {
                                 <div className="text-blueGray-800 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
                                     <i className="fas fa-medal text-xl"></i>
                                 </div>
-                                <h6 className="text-xl mt-5 font-semibold text-white">Excelent Services</h6>
+                                <h6 className="text-xl mt-5 font-semibold text-white">
+                                    Excelent Services
+                                </h6>
                                 <p className="mt-2 mb-4 text-blueGray-400">
-                                    Some quick example text to build on the card title and make up the bulk of the card's content.
+                                    Some quick example text to build on the card
+                                    title and make up the bulk of the card's
+                                    content.
                                 </p>
                             </div>{" "}
                             <div className="w-full lg:w-3/12 px-4 text-center">
                                 <div className="text-blueGray-800 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
                                     <i className="fas fa-poll text-xl"></i>
                                 </div>{" "}
-                                <h5 className="text-xl mt-5 font-semibold text-white">Grow your market </h5>{" "}
+                                <h5 className="text-xl mt-5 font-semibold text-white">
+                                    Grow your market{" "}
+                                </h5>{" "}
                                 <p className="mt-2 mb-4 text-blueGray-400">
-                                    Some quick example text to build on the card title and make up the bulk of the card 's content.{" "}
+                                    Some quick example text to build on the card
+                                    title and make up the bulk of the card 's
+                                    content.{" "}
                                 </p>{" "}
                             </div>{" "}
                             <div className="w-full lg:w-3/12 px-4 text-center">
                                 <div className="text-blueGray-800 p-3 w-12 h-12 shadow-lg rounded-full bg-white inline-flex items-center justify-center">
                                     <i className="fas fa-lightbulb text-xl"></i>
                                 </div>{" "}
-                                <h5 className="text-xl mt-5 font-semibold text-white">Launch time </h5>{" "}
+                                <h5 className="text-xl mt-5 font-semibold text-white">
+                                    Launch time{" "}
+                                </h5>{" "}
                                 <p className="mt-2 mb-4 text-blueGray-400">
-                                    Some quick example text to build on the card title and make up the bulk of the card 's content.{" "}
+                                    Some quick example text to build on the card
+                                    title and make up the bulk of the card 's
+                                    content.{" "}
                                 </p>{" "}
                             </div>{" "}
-                        </div>{" "}
+                        </div>{" "}*/}
                     </div>{" "}
                 </section>{" "}
                 <section className="relative block py-24 lg:pt-0 bg-blueGray-800">
@@ -303,12 +400,17 @@ export default function Landing() {
                             <div className="w-full lg:w-6/12 px-4">
                                 <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-blueGray-200">
                                     <div className="flex-auto p-5 lg:p-10">
-                                        <h4 className="text-2xl font-semibold">Want to work with us?</h4>
-                                        <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
-                                            Complete this form and we will get back to you in 24 hours.
-                                        </p>
+                                        <h4 className="text-2xl font-semibold">
+                                            Want to Know More?
+                                        </h4>
+                                        {/* <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
+                                            Complete this form and we will get
+                                            back to you in 24 hours.
+                                        </p> */}
                                         <div className="relative w-full mb-3 mt-8">
-                                            <label className="block uppercase text-blueGray-600 text-xs font-bold mb-2" htmlFor="full-name">
+                                            <label
+                                                className="block uppercase text-blueGray-600 text-xs font-bold mb-2"
+                                                htmlFor="full-name">
                                                 Full Name
                                             </label>
                                             <input
@@ -319,7 +421,9 @@ export default function Landing() {
                                         </div>
 
                                         <div className="relative w-full mb-3">
-                                            <label className="block uppercase text-blueGray-600 text-xs font-bold mb-2" htmlFor="email">
+                                            <label
+                                                className="block uppercase text-blueGray-600 text-xs font-bold mb-2"
+                                                htmlFor="email">
                                                 Email
                                             </label>
                                             <input
@@ -330,7 +434,9 @@ export default function Landing() {
                                         </div>
 
                                         <div className="relative w-full mb-3">
-                                            <label className="block uppercase text-blueGray-600 text-xs font-bold mb-2" htmlFor="message">
+                                            <label
+                                                className="block uppercase text-blueGray-600 text-xs font-bold mb-2"
+                                                htmlFor="message">
                                                 Message
                                             </label>
                                             <textarea
@@ -354,7 +460,7 @@ export default function Landing() {
                     </div>{" "}
                 </section>{" "}
             </main>{" "}
-            <Footer />
+            {/* <Footer /> */}
         </>
     );
 }
