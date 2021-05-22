@@ -460,7 +460,7 @@ export default function Landing() {
                     </div>{" "}
                 </section>{" "}
             </main>{" "}
-            {/* <Footer /> */}
+            <Footer />
         </>
     );
 }
