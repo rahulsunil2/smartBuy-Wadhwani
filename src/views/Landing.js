@@ -474,12 +474,6 @@ export default function Landing() {
                     </div>{" "}
                 </section>{" "}
             </main>{" "}
-            <div
-                data-tf-chat
-                data-tf-tooltip="Hey 👋&nbsp;&nbsp;How can I help you? "
-                data-tf-popover="EELWJODq"
-                data-tf-button-color="#0445AF"></div>
-            <script src="//embed.typeform.com/next/embed.js"></script>
             <Footer />
         </>
     );
