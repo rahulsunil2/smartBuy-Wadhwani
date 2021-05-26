@@ -31,7 +31,6 @@ export default function Landing() {
     return (
         <>
             <Navbar transparent />
-            <div data-tf-chat data-tf-tooltip="Hey 👋&nbsp;&nbsp;How can I help you? " data-tf-popover="EELWJODq" data-tf-button-color="#0445AF"></div><script src="//embed.typeform.com/next/embed.js"></script>
             <main>
                 <div className="relative pt-16 pb-32 flex content-center items-center justify-center min-h-screen-75">
                     <div
@@ -475,6 +474,12 @@ export default function Landing() {
                     </div>{" "}
                 </section>{" "}
             </main>{" "}
+            <div
+                data-tf-chat
+                data-tf-tooltip="Hey 👋&nbsp;&nbsp;How can I help you? "
+                data-tf-popover="EELWJODq"
+                data-tf-button-color="#0445AF"></div>
+            <script src="//embed.typeform.com/next/embed.js"></script>
             <Footer />
         </>
     );
