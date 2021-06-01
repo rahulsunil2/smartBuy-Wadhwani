@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <title>Page-1</title>
+</head>
+
+<body>
+    <div class="imageback">
+        <img src="https://www.socialbakers.com/website/storage/2020/04/Phils-Video-Tips.jpg" alt="">
+    </div>
+    <div class="card">
+        <div class="cardcontent">
+            <h1 class="heading">Coming Soon !!</h1>
+            <p class="subheading"></p>
+        </div>
+    </div>
+
+    <div class="para">
+        <p>
+        <ul>
+            <li>Face to face interaction with experts</li>
+            <li>Schedule your slots</li>
+            <li>Get quick and useful product recommendations</li>
+        </ul>
+
+        </p>
+    </div>
+
+</body>
+
+</html>
+
+<style>
+    html,
+    body {
+        margin: 0;
+        background-color: #e2e8f0;
+        overflow-x: hidden;
+    }
+
+    .card {
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        transform: translate(-50%, 0);
+        height: 250px;
+        width: 500px;
+        display: block;
+        background-color: #ffffff;
+        box-shadow: 10px 10px 60px #00000015;
+        border-radius: 10px;
+        padding: 10px;
+        text-align: center;
+        z-index: 1;
+    }
+
+    .heading {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center
+    }
+
+    .cardcontent {
+        margin-top: 20%;
+    }
+
+    .imageback {
+        z-index: -1;
+        position: absolute;
+    }
+
+    .imageback img {
+        object-fit: cover;
+        width: 100vw;
+        height: 300px;
+    }
+
+    .para {
+        position: absolute;
+        z-index: 1;
+        top: 50vh;
+        padding-left: 10%;
+        padding-right: 10%;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: large;
+        margin-left: 50px;
+        margin-top: 50px;
+
+    }
+
+    ul {
+        list-style: none;
+        /* Remove default bullets */
+    }
+
+    ul li::before {
+        content: "\2022";
+        color: rgb(36, 99, 193);
+        font-weight: bold;
+        display: inline-block;
+        width: 1em;
+        margin-left: -1em;
+    }
+</style>
