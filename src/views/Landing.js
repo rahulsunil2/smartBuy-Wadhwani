@@ -214,7 +214,7 @@ export default function Landing() {
                                 desg="CEO"
                                 src="Archana.jpeg"></TeamCard>
                             <TeamCard
-                                name="Amal Thoma"
+                                name="Amal Thomas"
                                 desg="COO"
                                 src="Amal.jpeg"></TeamCard>
                             <TeamCard
